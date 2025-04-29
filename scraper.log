@@ -1438,3 +1438,18 @@
 2025-04-29 07:58:38,963 - INFO - Saved Selenium HTML to debug_selenium.html for inspection
 2025-04-29 07:58:38,964 - INFO - Selenium found metric: 182
 2025-04-29 07:58:39,127 - INFO - Saved metric 182 at 2025-04-29 07:58:39
+2025-04-29 08:21:26,218 - INFO - Fetching metric
+2025-04-29 08:21:26,219 - INFO - ====== WebDriver manager ======
+2025-04-29 08:21:32,444 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 08:21:32,485 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 08:21:32,496 - INFO - There is no [linux64] chromedriver "135.0.7049.114" for browser google-chrome "135.0.7049" in cache
+2025-04-29 08:21:32,496 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 08:21:32,542 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-29 08:21:32,544 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/linux64/chromedriver-linux64.zip
+2025-04-29 08:21:32,544 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/linux64/chromedriver-linux64.zip
+2025-04-29 08:21:32,571 - INFO - Driver downloading response is 200
+2025-04-29 08:21:32,620 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 08:21:32,741 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/135.0.7049.114]
+2025-04-29 08:21:39,303 - INFO - Saved Selenium HTML to debug_selenium.html for inspection
+2025-04-29 08:21:39,304 - INFO - Selenium found metric: 172
+2025-04-29 08:21:39,598 - INFO - Saved metric 172 at 2025-04-29 08:21:39

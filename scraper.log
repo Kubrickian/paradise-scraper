@@ -31243,3 +31243,18 @@
 2025-05-17 18:43:39,062 - INFO - Saved Selenium HTML to debug_selenium.html for inspection
 2025-05-17 18:43:39,064 - ERROR - Selenium: Div element with class 'online-spawn' not found
 2025-05-17 18:43:39,125 - ERROR - Failed to fetch metric
+2025-05-17 18:51:48,792 - INFO - Fetching metric
+2025-05-17 18:51:48,792 - INFO - ====== WebDriver manager ======
+2025-05-17 18:51:49,112 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-17 18:51:49,130 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-17 18:51:49,139 - INFO - There is no [linux64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-17 18:51:49,139 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-17 18:51:49,182 - INFO - WebDriver version 136.0.7103.94 selected
+2025-05-17 18:51:49,185 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
+2025-05-17 18:51:49,185 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
+2025-05-17 18:51:49,240 - INFO - Driver downloading response is 200
+2025-05-17 18:51:49,314 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-17 18:51:49,447 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/136.0.7103.94]
+2025-05-17 18:51:54,499 - INFO - Saved Selenium HTML to debug_selenium.html for inspection
+2025-05-17 18:51:54,500 - ERROR - Selenium: Div element with class 'online-spawn' not found
+2025-05-17 18:51:54,561 - ERROR - Failed to fetch metric

@@ -38974,3 +38974,47 @@ Stacktrace:
 #26 0x7f96f9129c3c <unknown>
 
 2025-05-22 14:38:31,549 - ERROR - Failed to fetch metric
+2025-05-22 14:49:37,248 - INFO - Fetching metric
+2025-05-22 14:49:37,249 - INFO - ====== WebDriver manager ======
+2025-05-22 14:49:37,526 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-22 14:49:37,539 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-22 14:49:37,549 - INFO - There is no [linux64] chromedriver "136.0.7103.113" for browser google-chrome "136.0.7103" in cache
+2025-05-22 14:49:37,549 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-22 14:49:37,594 - INFO - WebDriver version 136.0.7103.113 selected
+2025-05-22 14:49:37,597 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2025-05-22 14:49:37,597 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2025-05-22 14:49:37,636 - INFO - Driver downloading response is 200
+2025-05-22 14:49:37,690 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-22 14:49:37,833 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/136.0.7103.113]
+2025-05-22 14:50:03,014 - ERROR - Error fetching data with Selenium: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.113)
+Stacktrace:
+#0 0x5563819dc71a <unknown>
+#1 0x55638147f0a0 <unknown>
+#2 0x556381476177 <unknown>
+#3 0x556381467199 <unknown>
+#4 0x556381468e8d <unknown>
+#5 0x55638146752e <unknown>
+#6 0x556381466ece <unknown>
+#7 0x556381466ba2 <unknown>
+#8 0x5563814649ef <unknown>
+#9 0x5563814651aa <unknown>
+#10 0x5563814825d9 <unknown>
+#11 0x55638151ceb5 <unknown>
+#12 0x5563814f63a2 <unknown>
+#13 0x55638151c2a0 <unknown>
+#14 0x5563814f6173 <unknown>
+#15 0x5563814c2d4b <unknown>
+#16 0x5563814c39b1 <unknown>
+#17 0x5563819a18cb <unknown>
+#18 0x5563819a57ca <unknown>
+#19 0x556381989622 <unknown>
+#20 0x5563819a6354 <unknown>
+#21 0x55638196e45f <unknown>
+#22 0x5563819ca4f8 <unknown>
+#23 0x5563819ca6d6 <unknown>
+#24 0x5563819db586 <unknown>
+#25 0x7fcbd749caa4 <unknown>
+#26 0x7fcbd7529c3c <unknown>
+
+2025-05-22 14:50:03,078 - ERROR - Failed to fetch metric

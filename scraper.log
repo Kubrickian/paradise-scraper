@@ -38578,3 +38578,47 @@
 2025-05-22 11:49:09,589 - INFO - Saved Selenium HTML to debug_selenium.html for inspection
 2025-05-22 11:49:09,591 - ERROR - Selenium: Div element with class 'online-spawn' not found
 2025-05-22 11:49:09,652 - ERROR - Failed to fetch metric
+2025-05-22 11:54:48,924 - INFO - Fetching metric
+2025-05-22 11:54:48,924 - INFO - ====== WebDriver manager ======
+2025-05-22 11:54:49,222 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-22 11:54:49,263 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-22 11:54:49,275 - INFO - There is no [linux64] chromedriver "136.0.7103.113" for browser google-chrome "136.0.7103" in cache
+2025-05-22 11:54:49,276 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-22 11:54:49,324 - INFO - WebDriver version 136.0.7103.113 selected
+2025-05-22 11:54:49,328 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2025-05-22 11:54:49,328 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2025-05-22 11:54:49,349 - INFO - Driver downloading response is 200
+2025-05-22 11:54:49,399 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-22 11:54:49,537 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/136.0.7103.113]
+2025-05-22 11:55:06,119 - ERROR - Error fetching data with Selenium: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.113)
+Stacktrace:
+#0 0x55d5c177a71a <unknown>
+#1 0x55d5c121d0a0 <unknown>
+#2 0x55d5c1214177 <unknown>
+#3 0x55d5c1205199 <unknown>
+#4 0x55d5c1206e8d <unknown>
+#5 0x55d5c120552e <unknown>
+#6 0x55d5c1204ece <unknown>
+#7 0x55d5c1204ba2 <unknown>
+#8 0x55d5c12029ef <unknown>
+#9 0x55d5c12031aa <unknown>
+#10 0x55d5c12205d9 <unknown>
+#11 0x55d5c12baeb5 <unknown>
+#12 0x55d5c12943a2 <unknown>
+#13 0x55d5c12ba2a0 <unknown>
+#14 0x55d5c1294173 <unknown>
+#15 0x55d5c1260d4b <unknown>
+#16 0x55d5c12619b1 <unknown>
+#17 0x55d5c173f8cb <unknown>
+#18 0x55d5c17437ca <unknown>
+#19 0x55d5c1727622 <unknown>
+#20 0x55d5c1744354 <unknown>
+#21 0x55d5c170c45f <unknown>
+#22 0x55d5c17684f8 <unknown>
+#23 0x55d5c17686d6 <unknown>
+#24 0x55d5c1779586 <unknown>
+#25 0x7f56c029caa4 <unknown>
+#26 0x7f56c0329c3c <unknown>
+
+2025-05-22 11:55:06,183 - ERROR - Failed to fetch metric

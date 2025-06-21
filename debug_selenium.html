@@ -1,18 +1,81 @@
-<html>
+<html lang="ru">
  <head>
+  <script defer="defer" src="/.well-known/ddos-guard/geoblocked.js">
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
   <title>
-   504 Gateway Time-out
+   Региональный доступ ограничен — Paradise Casino
   </title>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <style>
+   * { margin: 0; padding: 0; }
+    html, body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      height: 100%;
+      color: #fff;
+      background: radial-gradient(circle at center, #1f0f3a, #0d0d0d);
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .top {
+      margin-top: 250px;
+    }
+    #ddg-l10n-title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #ff007a;
+      margin-bottom: 20px;
+    }
+    #ddg-l10n-description {
+      color: #dddddd;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    .bottom {
+      margin-bottom: 40px;
+    }
+    .bottom-text {
+      font-size: 14px;
+      color: #999;
+    }
+    #ddg-link {
+      color: #888;
+      text-decoration: underline;
+    }
+    @media(max-width: 768px) {
+      #ddg-l10n-title { font-size: 20px; }
+      #ddg-l10n-description { font-size: 14px; }
+    }
+  </style>
  </head>
  <body>
-  <center>
-   <h1>
-    504 Gateway Time-out
-   </h1>
-  </center>
-  <hr/>
-  <center>
-   nginx/1.22.1
-  </center>
+  <div class="container">
+   <div class="top">
+    <h1 id="ddg-l10n-title">
+     Доступ к Paradise Casino из вашего региона ограничен
+    </h1>
+    <p id="ddg-l10n-description">
+     Возможно, вы находитесь в стране, где доступ запрещён. Попробуйте использовать VPN
+     <br/>
+     или обратитесь в поддержку Paradise Casino.
+    </p>
+   </div>
+   <div class="bottom">
+    <span class="bottom-text" id="request-info">
+     Request ID: ZABBjwTV8EIc4WN3 | IP: 20.25.193.66 | Time: 2025-06-21 00:00:05 UTC
+    </span>
+    <span class="bottom-text">
+     Защищено Paradise Project
+    </span>
+   </div>
+  </div>
  </body>
 </html>
